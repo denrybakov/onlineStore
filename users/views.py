@@ -27,6 +27,9 @@ class UserRegistrationView(TitleMixin, SuccessMessageMixin, CreateView):
   success_message = 'Вы успешно зарегистрированы'
   title = 'Store - Регистрация'
 
+  
+
+
 
 class UserProfileView(TitleMixin, UpdateView):
   model = User 
